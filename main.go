@@ -9,6 +9,7 @@ import (
 	//"encoding/json"
 	//"time"
 	"encoding/json"
+	"time"
 )
 
 func main()  {
@@ -32,7 +33,7 @@ func main()  {
 	fmt.Println(string(b))
 
 	/*parser, err := time.Parse(
-		time.RFC1123,
+		time.RFC822,
 		radicaResult[0].FechaDocumento.String())
 
 	fmt.Println("db result ",radicaResult[0].FechaDocumento.String())
